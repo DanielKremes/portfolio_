@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  .container-about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%;
+    padding: 0rem;
+  }
+
+  .container-about-me h1,
+  p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .container-about-me-one {
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+
+  .container-about-me-two img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .container-about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: auto;
+    padding: 0rem;
+  }
+
+  .container-about-me h1,
+  p {
+    font-size: 2rem;
+  }
+
+  .container-about-me-one {
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+
+  .container-about-me-two img {
+    width: 100vw;
+    height: auto;
+  }
+}

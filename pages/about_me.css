@@ -1,0 +1,66 @@
+.container-about-me {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  width: 90%;
+  padding: 2rem;
+  margin: auto;
+}
+
+.container-about-me h1,
+p {
+  font-size: 2rem;
+}
+
+.container-about-me-one {
+  width: 90%;
+  padding: 2rem;
+  text-align: left;
+}
+
+.container-about-me-author {
+  color: var(--color-seven);
+  font-weight: 600;
+}
+
+.container-about-me-author:hover {
+  color: var(--color-three);
+}
+
+.container-about-me-one:hover {
+  background-color: var(--color-five);
+  /* border-radius: 2rem; */
+  color: var(--color-one);
+  margin: 2rem 2rem;
+  transition: 0.5s ease-in;
+}
+
+.networks {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.networks a {
+  text-decoration: none;
+  color: var(--color-page-background);
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  background-color: var(--color-one);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.networks a:hover {
+  background-color: var(--color-four);
+  color: var(--color-one);
+  transition: 0.6s ease-in;
+}

@@ -1,0 +1,49 @@
+.container-portfolio {
+  display: flex;
+  /* background-color: var(--color-four); */
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.container-content-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: var(--color-five); */
+}
+
+.container-content-portfolio-one {
+  flex: 1 1 50%;
+  padding: 1rem;
+}
+
+.container-content-portfolio-one h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.container-content-portfolio-one h1:hover {
+  color: var(--color-four);
+}
+
+.container-content-portfolio-one video {
+  width: 100%;
+  border: 1rem;
+}
+
+.container-content-portfolio :hover {
+  transition: 0.5s ease-in;
+  background-color: var(--color-five);
+  color: var(--color-three);
+}
+
+.container-content-portfolio-one a {
+  text-decoration: none;
+  color: var(--color-one);
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.container-content-portfolio-one a:hover {
+  color: var(--color-three);
+}

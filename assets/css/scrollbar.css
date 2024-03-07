@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  width: 0.8rem;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background:#535C91;
+}
+::-webkit-scrollbar-thumb {  
+ background: #1B1A55;
+}

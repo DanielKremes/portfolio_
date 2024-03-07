@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-astronomy {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .content-astronomy h1 {
+    margin: 0%;
+  }
+
+  .content .content-astronomy img {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-one);
+  }
+
+  .content-astronomy:hover,
+  .content-astronomy img {
+    background-color: var(--color-five);
+    transition: 0.5s ease-in;
+    text-align: center;
+  }
+
+  .content-astronomy a {
+    color: var(--color-one);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .content-astronomy h1 {
+    font-size: 2rem;
+  }
+
+  .content-astronomy p {
+    font-size: 1.6rem;
+  }
+  
+}
